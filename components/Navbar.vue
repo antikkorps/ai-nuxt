@@ -14,9 +14,16 @@
     </div>
     </div>
     <div class="flex items-center justify-between dark:text-white space-x-2">
-      <div>Some Ui</div>
       <div>
-        <div>Some other Ui</div>
+        <UiColorMode />
+      </div>
+      <div>
+        <div>
+          <UAvatar
+            size="sm"
+            src="https://avatars.githubusercontent.com/u/739984?v=4"
+            alt="Avatar"
+        /></div>
       </div>
     </div>
   </div>
