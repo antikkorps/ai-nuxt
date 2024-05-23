@@ -1,9 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    "@nuxt/ui",
-  ],
+  modules: ["@nuxt/ui", "@hebilicious/authjs-nuxt"],
   colorMode: {
     preference: 'dark'
   }
